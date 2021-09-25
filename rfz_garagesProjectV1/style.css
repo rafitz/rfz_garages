@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500;1,900&display=swap');
+
+* { 
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#garagepage {
+	width: 1500px;
+	height: 900px;
+    margin-top: 95px;
+    margin-left: 220px;
+    background: rgba(23, 25, 39, 0.897);
+	border-radius: 15px;
+}
+
+#carlist {
+    position: relative;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    top: 30px;
+    left: 22px;
+}
+
+.car-elements {
+    margin-top: 100px;
+    display: flex;
+}
+
+.car {
+    font-size: 22px;
+    color: white;
+    padding: 25px;
+    margin: 10px 20px;
+    background-color: #ffffff1a;
+    border-left: 4px solid rgb(255, 255, 255);
+}
+
+.selected { 
+    background-color: #ec0c48;
+}
+
+
+#rvehicle {
+    background-color: #a8d44c;
+}
+
+#rvehicle:hover {
+    filter: brightness(105%); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+#svehicle {
+    background-color: #ec0c48;
+}
+
+.buttons {
+    display: flex;
+    margin: 560px 20px;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.6);
+    margin-left: 20px;
+}
+
+#svehicle:hover {
+    filter: brightness(105%); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
